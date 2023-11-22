@@ -1,0 +1,115 @@
+﻿<Page x:Class="PhotoStudioSeverApp.Pages.UsersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhotoStudioSeverApp.Pages"
+       mc:Ignorable="d" 
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="450" d:DesignWidth="800"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="Пользователи" IsVisibleChanged="PageIsVisibleChanged" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" 
+                   HorizontalAlignment="Stretch" 
+                 >
+
+            <TextBox Width="275" x:Name="TBoxSearch"   materialDesign:HintAssist.Hint="Введите Имя пользователя или ФИО"
+                         TextChanged="TBoxSearchTextChanged"/>
+
+            <ComboBox Width="275" x:Name="ComboUserType" FontSize="14" Padding="3"
+                      materialDesign:HintAssist.Hint="Выберите тип пользователя"
+                    DisplayMemberPath="Title" SelectionChanged="ComboUserType_SelectionChanged"/>
+
+
+            <ComboBox Width="275" materialDesign:HintAssist.Hint="Сортировать"
+                          x:Name="ComboSort"
+                          SelectionChanged="ComboSortSelectionChanged" Margin="10 0 0 0" >
+                <ComboBoxItem >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="ФИО"/>
+                        <materialDesign:PackIcon Kind="SortAscending" Margin="5 0 0 0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="ФИО"/>
+                        <materialDesign:PackIcon Kind="SortDescending" Margin="5 0 0 0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Группа"/>
+                        <materialDesign:PackIcon Kind="SortAscending" Margin="5 0 0 0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Группа"/>
+                        <materialDesign:PackIcon Kind="SortDescending" Margin="5 0 0 0"/>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+
+        </WrapPanel>
+
+        <DataGrid x:Name="DataGridData" Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  ItemsSource="{Binding}"
+                  SelectionMode="Single"
+                 >
+            <DataGrid.Columns>
+                <!--<DataGridTextColumn Binding="{Binding Chapter.GetChapter}" Header="Раздел" Width="120" ElementStyle="{StaticResource First}" />-->
+                <DataGridTextColumn Binding="{Binding UserName}" Header="Имя пользователя" Width="*" />
+                <DataGridTextColumn Binding="{Binding LastName}" Header="Фамилия" Width="*" />
+                <DataGridTextColumn Binding="{Binding FirstName}" Header="Имя" Width="*" />
+                <DataGridTextColumn Binding="{Binding MiddleName}" Header="Отчество" Width="*" />
+                <DataGridTextColumn Binding="{Binding Email}" Header="E-mail" Width="*" />
+                <DataGridTextColumn Binding="{Binding Role.Title}" Header="Роль" Width="*" />
+                <DataGridTextColumn Binding="{Binding Phone}" Header="Телефон" Width="*" />
+
+
+
+
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button VerticalAlignment="Center" x:Name="BtnEdit"  Style="{StaticResource MaterialDesignFlatButton}" 
+                                Content="{materialDesign:PackIcon Kind=Edit, Size=24}"   ToolTip="Изменить"  Height="40" Click="BtnEdit_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button VerticalAlignment="Center" x:Name="BtnDelete"  Style="{StaticResource MaterialDesignFlatButton}" 
+                                Content="{materialDesign:PackIcon Kind=Delete, Size=24}"   ToolTip="Удалить"  Height="40" Click="BtnDeleteClick" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+        <Button x:Name="BtnAdd" Grid.Row="3" Width="100" HorizontalAlignment="Right" Margin="3 0 10 0"
+                Content="Добавить" Click="BtnAddClick"/>
+
+        <TextBlock Grid.Row="3" x:Name="TextBlockCount" Width="300"  HorizontalAlignment="Left"/>
+
+    </Grid>
+</Page>
+        

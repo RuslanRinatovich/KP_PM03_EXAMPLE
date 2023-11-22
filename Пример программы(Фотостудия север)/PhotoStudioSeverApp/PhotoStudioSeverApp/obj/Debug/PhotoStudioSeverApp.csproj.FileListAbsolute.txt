@@ -1,0 +1,249 @@
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe.config
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.pdb
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csprojAssemblyReference.cache
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.cache
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.lref
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.g.resources
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.Properties.Resources.resources
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.GenerateResource.cache
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CoreCompileInputs.cache
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.exe
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.pdb
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_Content.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.xml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.pdb
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CopyComplete
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.baml
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.g.cs
+C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe.config
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.pdb
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.xml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.xml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.pdb
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\EntityFramework.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.AssemblyReference.cache
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_Content.g.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.cache
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.lref
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.baml
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.g.resources
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.Properties.Resources.resources
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.GenerateResource.cache
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CoreCompileInputs.cache
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CopyComplete
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.exe
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.pdb
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe.config
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.exe
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\PhotoStudioSeverApp.pdb
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.xml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\EntityFramework.SqlServer.xml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignColors.pdb
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\Microsoft.Xaml.Behaviors.xml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\EntityFramework.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.AssemblyReference.cache
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsCataloguePage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_Content.g.cs
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.cache
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp_MarkupCompile.lref
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\App.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddRoomPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\AddUserPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\BookingPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\CategoryPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyBookingPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\MyRewiewPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RewiewsPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\RoomsPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\TimeTablePage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Pages\UsersPage.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\BookingWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\CategoryWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\LoginWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MainWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MakeRewiewWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\MyAccountWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\Windows\TimeTableWindow.baml
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.g.resources
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.Properties.Resources.resources
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.GenerateResource.cache
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CoreCompileInputs.cache
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.csproj.CopyComplete
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.exe
+z:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\PhotoStudioSeverApp.pdb

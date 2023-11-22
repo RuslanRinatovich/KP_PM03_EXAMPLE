@@ -1,0 +1,97 @@
+﻿<Window x:Class="PhotoStudioSeverApp.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoStudioSeverApp.Windows"
+        mc:Ignorable="d"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"  Title="Вход"   Height="250"
+        Width="400" MinHeight="250" MinWidth="400" 
+        WindowStartupLocation="CenterScreen"          ResizeMode="NoResize">
+    <!--NoResize - нужен, чтобы нельзя было изменить зааднные размеры окна-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid />
+        <materialDesign:PackIcon Kind="Key" Foreground="{StaticResource PrimaryHueMidBrush}"
+               Margin="10,10,0,0" 
+               HorizontalAlignment="Left" Height="55" Width="62"/>
+        <TextBlock Grid.Row="0" Text="СЕВЕР" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontSize="16"  TextAlignment="Center"
+                   FontWeight="Bold" Height="60"  Width="281" />
+
+
+        <TextBox x:Name="TbLogin"  Grid.Row="1"
+                     Grid.Column="1" materialDesign:HintAssist.Hint="Логин"
+                     Width="300" Text="admin"/>
+
+        <PasswordBox x:Name="TbPass" Height="30" Width="300" materialDesign:HintAssist.Hint="Пароль" Password="1" Grid.Row="2" />
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center">
+            <Button Width="100" Height="30" 
+                    Content="OK" 
+                    x:Name="BtnOk" 
+                    Click="BtnOkClick" IsDefault="True"/>
+            <Button Width="100"
+                    Height="30" 
+                    Content="Cancel" 
+                    x:Name="BtnCancel" IsCancel="True"
+                    Click="BtnCancelClick"/>
+        </StackPanel>
+        <Button Grid.Row="4" Content="Регистрация" Padding="0" FontSize="10" Height="20" Click="Button_Click"/>
+        <materialDesign:DialogHost x:Name="DialogHost"
+                                  BorderThickness="1">
+            <materialDesign:DialogHost.DialogContent>
+
+
+                <StackPanel>
+
+                    <Grid VerticalAlignment="Top" Margin="35, 60" Height="180" Width="420">
+                        <Label Content="Регистрация " HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 20" Foreground="Gray" FontSize="18"/>
+                        <StackPanel VerticalAlignment="Center" Margin="15">
+                            <TextBox x:Name="tbRegLogin" Margin="0, 10"  TextAlignment="Left" materialDesign:HintAssist.Hint="ЛОГИН"  FontSize="18"/>
+                            <PasswordBox x:Name="psbPassword1" Margin="0,10" materialDesign:HintAssist.Hint="ПАРОЛЬ"  materialDesign:TextFieldAssist.HasClearButton="True" FontSize="18"/>
+                            <PasswordBox x:Name="psbPassword2" Margin="0,10" materialDesign:HintAssist.Hint="ПАРОЛЬ"  materialDesign:TextFieldAssist.HasClearButton="True" FontSize="18"/>
+                        </StackPanel>
+                    </Grid>
+                    <StackPanel HorizontalAlignment="Center" Margin="10 20">
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button x:Name="btnOk" Click="btnOk_Click">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Check"  Margin="5" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Ok" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                            </Button>
+
+
+                            <Button x:Name="btnCancel" Click="BtnCancel_Click">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Cancel"  Margin="5" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Cancel" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</Window>

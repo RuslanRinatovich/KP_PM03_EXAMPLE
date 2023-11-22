@@ -1,0 +1,86 @@
+﻿<Page x:Class="AfishaApp.Pages.AddEventPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AfishaApp.Pages"
+       mc:Ignorable="d" 
+      Background="White"
+        d:DesignHeight="600" d:DesignWidth="800" FontSize="14"
+       Title="Добавление и редактирование" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Row="0" Grid.ColumnSpan="2" />
+
+        <!--public int EventId { get; set; }
+        public string EventName { get; set; }
+        public string Info { get; set; }
+        public System.DateTime EventDate { get; set; }
+        public string EventPlace { get; set; }
+        public int Duration { get; set; }
+        public string Photo { get; set; }
+        public int StatusId { get; set; }
+        public int CategoryId { get; set; }-->
+
+
+        <TextBlock x:Name="TextBlockExhibitId" Grid.Row="0" Grid.Column="0" Text="ID:"  Margin="20 0"/>
+        <TextBox x:Name="TextBoxExhibitId" Text="{Binding EventId}" Grid.Row="0" Grid.Column="1" Padding="0,2" IsReadOnly="True"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Название:"  Margin="20 0"/>
+        <TextBox x:Name="TextBoxExhibitName" Text="{Binding EventName}"  Grid.Row="1" Grid.Column="1" Padding="0,2"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Информация:"  Margin="20 0"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="TextBoxInfo" 
+                 Text="{Binding Info}" TextWrapping="Wrap" Height="100" />
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Дата:"  Margin="20 0"/>
+        <DatePicker x:Name="TextBoxPhone" SelectedDate="{Binding EventDate}"
+                 Grid.Row="3" Grid.Column="1" Padding="0,2"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Место проведения:"  Margin="20 0"/>
+        <TextBox x:Name="TextBoxAddress" Text="{Binding EventPlace}"
+                 Grid.Row="4" Grid.Column="1" Padding="0,2"/>
+        
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Длительность"  Margin="20 0"/>
+        <TextBox x:Name="TextBoxCount" Text="{Binding Duration}" Width="140" HorizontalAlignment="Left"
+                 Grid.Row="5" Grid.Column="1" Padding="0,2"/>
+        <TextBlock Grid.Row="6" Grid.Column="0" Text="Категории"  Margin="20 0"/>
+        <ComboBox x:Name="ComboCategory"  SelectedItem="{Binding Category}" 
+                  Grid.Row="6" Grid.Column="1"  DisplayMemberPath="CategoryName" 
+                  SelectedValuePath="CategoryId" />
+        <TextBlock Grid.Row="7" Grid.Column="0" Text="Статус"  Margin="20 0"/>
+        <ComboBox x:Name="ComboStatus"  SelectedItem="{Binding Status}" 
+                  Grid.Row="7" Grid.Column="1"  DisplayMemberPath="StatusName" 
+                  SelectedValuePath="StatusId" />
+
+        <TextBlock Grid.Row="8" Grid.Column="0" Text="Изображение:" 
+                   Margin="20 0" Height="30" VerticalAlignment="Top"/>
+
+        <Button x:Name="BtnSave" Grid.Row="9" Content="Сохранить" 
+                HorizontalAlignment="Center" Margin="140,5,340,0" VerticalAlignment="Top" Width="120" 
+                Click="BtnSaveClick" Grid.Column="1"/>
+
+
+
+        <Image x:Name="ImagePhoto" Source="{Binding GetPhoto}" Grid.Row="8" Grid.Column="1" 
+               VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <Button x:Name="BtnLoad" Grid.Row="8" Grid.Column="0" Margin="20,30,0,0" 
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Click="BtnLoadClick" Content="Загрузить"/>
+
+
+    </Grid>
+</Page>
+

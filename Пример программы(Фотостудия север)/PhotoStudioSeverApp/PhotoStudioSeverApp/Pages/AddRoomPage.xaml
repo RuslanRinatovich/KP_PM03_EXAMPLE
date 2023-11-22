@@ -1,0 +1,91 @@
+﻿<Page x:Class="PhotoStudioSeverApp.Pages.AddRoomPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:PhotoStudioSeverApp.Pages"
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+       Title="Добавление и редактирование"
+      >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="245"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BtnSave" Grid.Row="9" Content="Сохранить"  
+                HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" 
+                Click="BtnSaveClick" Grid.Column="1" Margin="213,3,222,0"/>
+
+        <TextBlock  Grid.Row="0" Grid.Column="0" Text="Фото"  Margin="20 0"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Название"  Margin="20 0"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Описание"  Margin="20 0"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Площадь, м. кв."  Margin="20 0"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Высота потолков, м."  Margin="20 0"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Минимальная стоимость, р."  Margin="20 0"/>
+        <TextBlock Grid.Row="6" Grid.Column="0" Text="Направления"  Margin="20 0"/>
+
+        <TextBlock Grid.Row="7" Grid.Column="0" Text="Источник света"  Margin="20 0"/>
+        <!--<Image x:Name="ImagePhoto" Source="{Binding GetPhoto}" 
+               Grid.Row="0" Grid.Column="1" Margin="10 0 0 0"
+               VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />-->
+        <Button x:Name="BtnLoad" Grid.Row="0" Grid.Column="0" Margin="120,5,0,0" 
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Click="BtnLoadClick" Content="{materialDesign:PackIcon Kind=ImageAdd}" Width="60"/>
+
+        <TextBox x:Name="TextBoxTitle" Text="{Binding Title}" 
+                 Grid.Row="1" Grid.Column="1" Padding="0,2" Height="Auto"/>
+
+        <TextBox x:Name="TextBoxDescription" Text="{Binding Description}" 
+                 Grid.Row="2" Grid.Column="1" Padding="0,2" Height="Auto" TextWrapping="Wrap"/>
+
+        <ListBox x:Name="ListBoxPhotos" Grid.Column="0" ItemsSource="{Binding Photos}" 
+                 Margin="0 60 0 0" SelectionChanged="ListBoxPhotos_SelectionChanged" SelectionMode="Single">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Height" Value="50" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="3" Source="{Binding GetPhoto}"/>
+                        <Button x:Name="BtnDelete"  HorizontalAlignment="Right"
+                                Click="BtnDelete_Click" ToolTip="Удалить" Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=Trash}"/>
+                       
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Image Grid.Column="1" Stretch="Uniform" x:Name="ImageCurrentPhoto"/>
+        <xctk:IntegerUpDown x:Name="IntegerUpDownArea"  Grid.Row="3"  HorizontalAlignment="Left" DefaultValue="1" 
+                            Grid.Column="1" Minimum="1" Width="100" Value="{Binding Area}"/>
+        <xctk:DoubleUpDown x:Name="IntegerUpDownCeilingHeight"  Grid.Row="4"  HorizontalAlignment="Left"  
+                           DefaultValue="1" Grid.Column="1" Minimum="1" Increment="0.1" Width="100"
+                           Value="{Binding CeilingHeight}"/>
+        <xctk:IntegerUpDown x:Name="IntegerUpDownMinPrice" HorizontalAlignment="Left"  Grid.Row="5" DefaultValue="1" Grid.Column="1" Minimum="1" Width="100" Value="{Binding MinPrice, StringFormat='c', ConverterCulture='ru-RU'}"/>
+
+
+        <xctk:CheckComboBox x:Name="ComboCategories"  Grid.Row="6" Grid.Column="1" 
+                                    DisplayMemberPath="Title" 
+                            SelectedMemberPath="Selected" 
+                            TabIndex="34" MaxDropDownHeight="150"/>
+        <TextBox x:Name="TextBoxLight" Text="{Binding Light}" 
+                 Grid.Row="7" Grid.Column="1" Padding="0,2" Height="Auto"/>
+    </Grid>
+</Page>

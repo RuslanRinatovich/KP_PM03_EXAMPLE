@@ -1,0 +1,46 @@
+﻿<Page x:Class="AfishaApp.Pages.StatusPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AfishaApp.Pages"
+      mc:Ignorable="d" 
+       xmlns:xctk1="http://schemas.xceed.com/wpf/xaml/toolkit"
+
+
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Статусы">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+
+            <RowDefinition Height="50"/>
+
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="0" x:Name="DtStatus" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                    LoadingRow="DataGridGoodLoadingRow"
+                  AutoGenerateColumns="False" SelectionMode="Single" AlternationCount="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding StatusID}" Header = "ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding StatusName}" Header = "Статус" Width="*"/>
+                <DataGridTemplateColumn Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <xctk1:ColorPicker x:Name="colorStatus"   SelectedColor="{Binding Color, UpdateSourceTrigger=PropertyChanged}"     
+                                               DisplayColorAndName="True" AvailableColorsSortingMode="HueSaturationBrightness" UsingAlphaChannel="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="btnSave" Content="Сохранить" Click="BtnSave_Click" />
+            <Button x:Name="btnDelete" Content="Удалить" Click="BtnDelete_Click"/>
+        </StackPanel>
+
+
+    </Grid>
+</Page>
+

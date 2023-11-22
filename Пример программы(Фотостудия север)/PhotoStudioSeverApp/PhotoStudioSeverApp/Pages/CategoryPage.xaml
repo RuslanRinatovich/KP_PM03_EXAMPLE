@@ -1,0 +1,73 @@
+﻿<Page x:Class="PhotoStudioSeverApp.Pages.CategoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhotoStudioSeverApp.Pages"
+       mc:Ignorable="d"
+       d:DesignHeight="450" d:DesignWidth="800"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+       Title="Категории залов" IsVisibleChanged="PageIsVisibleChanged" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Grid.Row="0" HorizontalAlignment="Stretch" >
+            <StackPanel Orientation="Horizontal">
+
+                <TextBox Width="275" x:Name="TBoxSearch" materialDesign:HintAssist.Hint="Введите название" 
+                         TextChanged="TBoxSearchTextChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+
+                <ComboBox Width="275"  materialDesign:HintAssist.Hint="Сортировать по"
+                          x:Name="ComboSort"
+                          SelectionChanged="ComboSortSelectionChanged" >
+                    <ComboBoxItem Content="По возрастанию"/>
+                    <ComboBoxItem Content="По убыванию"/>
+                </ComboBox>
+            </StackPanel>
+        </WrapPanel>
+        <DataGrid x:Name="DataGridGood" Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  
+                  SelectionMode="Single"
+                  LoadingRow="DataGridGoodLoadingRow">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID" />
+                <DataGridTextColumn Binding="{Binding Title}" Header="Название" Width="*"/>
+
+                <DataGridTemplateColumn Width="auto" Header="Редактировать">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="BtnEdit"  Content="{materialDesign:PackIcon Kind=Edit}" Click="BtnEdit_Click" Margin="0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="auto" Header="Удалить">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="BtnDelete"  Content="{materialDesign:PackIcon Kind=Delete}" Click="BtnDeleteClick" Margin="0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Grid.Row="2" x:Name="TextBlockCount" Width="300" HorizontalAlignment="Left" />
+        <Button x:Name="BtnAdd" Grid.Row="2" Width="100" HorizontalAlignment="Right" Margin="3"
+                Content="{materialDesign:PackIcon Kind=AddBold}" Click="BtnAddClick"/>
+
+    </Grid>
+</Page>

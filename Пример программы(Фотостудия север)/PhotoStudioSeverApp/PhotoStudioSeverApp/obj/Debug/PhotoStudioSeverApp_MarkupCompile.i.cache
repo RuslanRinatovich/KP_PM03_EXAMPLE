@@ -1,0 +1,20 @@
+﻿PhotoStudioSeverApp
+
+
+winexe
+C#
+.cs
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\obj\Debug\
+PhotoStudioSeverApp
+none
+false
+DEBUG;TRACE
+d:\ДИПЛОМ 2023\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\App.xaml
+181681014098
+2-1890902742
+431956792409
+27-1334595120
+Pages\AddRoomPage.xaml;Pages\AddUserPage.xaml;Pages\BookingPage.xaml;Pages\CategoryPage.xaml;Pages\MyBookingPage.xaml;Pages\MyRewiewPage.xaml;Pages\RewiewsPage.xaml;Pages\RoomsCataloguePage.xaml;Pages\RoomsPage.xaml;Pages\TimeTablePage.xaml;Pages\UsersPage.xaml;Windows\BookingWindow.xaml;Windows\CategoryWindow.xaml;Windows\LoginWindow.xaml;Windows\MainWindow.xaml;Windows\MakeRewiewWindow.xaml;Windows\MyAccountWindow.xaml;Windows\TimeTableWindow.xaml;
+
+True
+

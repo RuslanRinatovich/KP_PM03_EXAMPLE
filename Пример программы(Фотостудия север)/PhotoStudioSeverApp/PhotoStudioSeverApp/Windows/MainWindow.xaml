@@ -1,0 +1,117 @@
+﻿<Window x:Class="PhotoStudioSeverApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoStudioSeverApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+               Title="{Binding ElementName=MainFrame, Path=Content.Title}" 
+     
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}" 
+        Height="450" Width="800" 
+        Closing="WindowClosing" WindowStartupLocation="CenterScreen" 
+        Closed="WindowClosed" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid/>
+
+        <materialDesign:ColorZone    Padding="16"   Background="Green"  ClipToBounds="False"
+  Foreground="White"   Mode="Custom">
+            <DockPanel >
+                <StackPanel     Orientation="Horizontal" DockPanel.Dock="Left" HorizontalAlignment="Left">
+                    <Image Source="/PhotoStudioSeverApp;component/Resources/logo.png" 
+               
+               HorizontalAlignment="Left" Height="55" Width="63"/>
+                    <TextBlock       Margin="16,0"       VerticalAlignment="Center"   Text="ФОТОСТУДИЯ СЕВЕР" Style="{StaticResource MaterialDesignHeadline5TextBlock}" />
+
+                    <Button x:Name="BtnRooms"  Click="BtnRooms_Click" 
+                            ToolTip="Залы" Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=Room, Size=24}" Visibility="Collapsed"/>
+
+                    <Button x:Name="BtnBooking"  Click="BtnBooking_Click" Visibility="Collapsed"
+                            ToolTip="Бронирование залов" Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=BookAccount, Size=24}"/>
+
+
+                    <Button x:Name="BtnUsers"  Click="BtnUsers_Click" ToolTip="Пользователи"
+                             Style="{StaticResource MaterialDesignFlatButton}" Visibility="Collapsed"
+                            Content="{materialDesign:PackIcon Kind=People, Size=24}"
+                           />
+                    <Button x:Name="BtnMyrewiew"  Click="BtnMyrewiew_Click" Visibility="Collapsed"
+                            ToolTip="Мои отзывы"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=MessageDraw, Size=24}"
+                            />
+
+                    <Button x:Name="BtnAllRewiew"  Click="BtnAllRewiew_Click" Visibility="Collapsed"
+                            ToolTip="Отзывы"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=MessageDraw, Size=24}"
+                            />
+                    <Button x:Name="BtnMyBooking"  Click="BtnMyOrders_Click" Visibility="Collapsed"
+                            ToolTip="Бронирование"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=Book, Size=24}"
+                            />
+
+                    <Button x:Name="BtnBack"  Click="BtnBackClick" ToolTip="Назад"  Visibility="Collapsed" Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=ArrowBack, Size=24}"/>
+
+
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="BtnMyAccount"  Click="BtnMyAccount_Click" ToolTip="Мой профиль"
+                             Style="{StaticResource MaterialDesignFlatButton}" Visibility="Collapsed"
+                            Content="{materialDesign:PackIcon Kind=Account, Size=24}"
+                           />
+                    <TextBlock x:Name="TextBlockUser" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline6TextBlock}"/>
+                    <Button x:Name="BtnEnter"  Click="BtnEnter_Click"
+                            ToolTip="Войти" Style="{StaticResource MaterialDesignFlatButton}"
+                        Width="60" >
+                        <materialDesign:PackIcon x:Name="IconBtnKey"  Kind="Login" Padding="0"/>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
+
+
+        <Frame x:Name="MainFrame" Grid.Row="1" 
+               NavigationUIVisibility="Hidden"
+               BorderThickness="1" ContentRendered="MainFrameContentRendered"/>
+        <!--<StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 20 0">
+            <Button x:Name="BtnEditGoods"  Click="BtnEditGoodsClick" ToolTip="Тренеры" Visibility="Collapsed">
+                <materialDesign:PackIcon  Kind="AccountMultiplePlus" Padding="0"/>
+            </Button>
+            <Button x:Name="BtnOrder"  Click="BtnOrder_Click" ToolTip="Заявки" Visibility="Collapsed">
+                <materialDesign:PackIcon  Kind="OrderBoolAscending" Padding="0"/>
+            </Button>
+            <Button x:Name="BtnBuyes"  Click="BtnBuyes_Click" ToolTip="Абонементы" Visibility="Collapsed">
+                <materialDesign:PackIcon  Kind="Cash" Padding="0"/>
+            </Button>
+            <Button x:Name="BtnMyAccount"  Click="BtnMyAccount_Click" ToolTip="Мой профиль" Visibility="Collapsed">
+                <materialDesign:PackIcon  Kind="Account" Padding="0"/>
+            </Button>
+            <Button x:Name="BtnMyOrders"  Click="BtnMyOrders_Click" ToolTip="Оставить заявку" Visibility="Collapsed">
+                <materialDesign:PackIcon  Kind="StarBorder" Padding="0"/>
+            </Button>
+            <Button x:Name="BtnEnter"  Click="BtnEnter_Click" ToolTip="Войти">
+                <materialDesign:PackIcon x:Name="IconBtnKey"  Kind="Login" Padding="0"/>
+            </Button>
+            
+        </StackPanel>-->
+        <Rectangle Grid.Row="2" Fill="{StaticResource MaterialDesignDarkBackground}"/>
+
+    </Grid>
+</Window>
+
